@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Minecraft Cities</title>
+        <link rel="icon" type="image/x-icon" href="img/SMT2.png" />
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="styles.css" />
+        <!-- Bootstrap CSS Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+        <!-- Bootstrap Navbar -->
+        <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+          <div class="container-fluid m-2">
+            <!-- normally class is navbar-brand -->  
+            <a class="button" href="index.html">
+                <img src="img/SMT2.png" alt="Bootstrap" width="40" height="40">
+            </a>
+            <button class="navbar-toggler" id="navToggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="button m-1">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="button m-1">
+                  <a class="nav-link active" aria-current="page" href="Classical%20City.html">Classical City</a>
+                </li>
+                <li class="button m-1">
+                  <a class="nav-link" href="Oriental%20City.html">Oriental City</a>
+                </li>
+                <li class="button m-1">
+                  <a class="nav-link" href="Desert%20City.html">Desert City</a>
+                </li>
+                <!-- Update: changed from a div to a li -->  
+                <!-- 
+                <div class="btn-group m-1" role="group" aria-label="Basic outlined example">
+                  <button type="button" class="buttonG1" data-bs-theme-value="light"><img src="img/LightMode.png" alt="Bootstrap" width="25" height="25"></button> 
+                  <button type="button" class="buttonG2" data-bs-theme-value="dark"><img src="img/DarkMode.png" alt="Bootstrap" width="25" height="25"></button>
+                </div>
+                -->
+                <li class="btn-group m-1" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="buttonG1" data-bs-theme-value="light"><img src="img/LightMode.png" alt="Bootstrap" width="25" height="25"></button> 
+                    <button type="button" class="buttonG2" data-bs-theme-value="dark"><img src="img/DarkMode.png" alt="Bootstrap" width="25" height="25"></button>
+                </li>    
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+        <!-- main image -->
+        <div class="MainImage">
+            <img src="img/Classical1C2.png" class="responsiveImg">
+        </div>
+        
+        <!-- main page -->
+        <div class="mainText mb-4">
+            <h1 class="title mt-4 mb-4">CLASSICAL CITY</h1> 
+            <!-- Update: removed id="CityFlag" and changed class from responsiveImgLevel2 to cityFlag --> 
+            <img src="img/Classical%20City%20Flag.png" class="cityFlag mb-4">
+            <p class="about mb-4">The Classical City is a fresh take on the grand cities and structures of Europe, combining architectural elements of
+                locations such as Budapest, Pisa, Prague, and Rome
+            </p> 
+        </div>
+        
+        
+        <img src="img/BuildingsC.png" class="responsiveImgLevel2">
+        
+        
+        <div class="mainText mb-4">
+            <h1 class="title mt-4 mb-4">BUILDINGS</h1>
+            <p class="about mb-4">The Classical City features hundreds of buildings each with its own unique design.
+                Here you can find the highlights
+            </p>     
+        </div>
+        
+        <div class="divider">
+            <br> 
+            <br>
+            <br>
+        </div>
+        
+        <!-- Town Hall Section -->
+        <!-- Update: removed id="rightAlign" from div -->
+        <div class="mainText mt-4 mb-5">
+            <h2 class="title mt-4 mb-4">TOWN HALL</h2>
+            <img src="img/TownHall.png" class="responsiveImgLevel3Right ms-4 mb-4">
+            <div class="clearLeft">
+                <p class="about">The town hall is located near the heart of the city and serves as both its main political structure
+                and as a symbol of the city. 
+                </p>
+            </div>    
+        </div>
+        
+        <div class="mainText mt-1 mb-1">   
+        </div>
+        
+        <!-- Update: removed id="leftAlign" from div -->
+        <div class="mainText mb-4">
+            <img src="img/TownHallInterior.png" class="responsiveImgLevel3Left me-4 mb-4">
+            <div class="clearRight">
+                <p class="about mt-5">Constructed almost entirely of stone, the town hall features a striking design inside and out.
+                    On the inside it features a rich hardwood floor with wool carpet as well as chiseled quartz details
+                </p>
+            </div>
+        </div>
+        
+        <div class="divider">
+            <br> 
+            <br>
+            <br>
+        </div>
+        
+        <!-- Castle Section -->
+        <div class="mainText mt-4 mb-4">
+            <h2 class="title mt-4 mb-4">CASTLE</h2>
+        </div>
+        
+        <img src="img/Castle1C.png" class="responsiveImgLevel2">
+        
+        <div class="mainText mt-4 mb-4">
+            <p class="about mb-5">The Castle, centrally located, serves as both the city's main defensive structure
+                and as the home of the royal family. It features four main towers, one of which is taller to allow for increased vision.
+                
+            </p>
+        </div>
+        
+        <!-- Update: removed id="rightAlign" from div -->
+        <div class="mainText mt-4 mb-5">
+            <img src="img/Castle4.png" class="responsiveImgLevel3Right ms-4 mb-4">
+            <div class="clearLeft">
+                <p class="about">Inside the walls are stables, an armory, and animal enclosures as well as vegetable farms 
+                    that allow the Castle to hold out even during a seige. 
+                    It even includes a chapel should traveling to the Cathedral be an inconvenience 
+                </p>
+            </div>   
+        </div>
+        
+        <div class="mainText mt-1 mb-1">   
+        </div>
+        
+        <!-- Update: removed id="rightAlign" from div -->
+        <div class="mainText mb-4">
+            <img src="img/Castle3.png" class="responsiveImgLevel3Left me-4 mb-4">
+            <div class="clearRight">
+                <p class="about mt-5">The interior includes the throne, dining table, and lounging area. 
+                    Access to the four towers is available in the corners of structure.
+                    Situated above the lounging area is the king's royal living quarters
+                </p>
+            </div>
+        </div>
+        
+        <div class="divider">
+            <br> 
+            <br>
+            <br>
+        </div>
+        
+        
+        <!-- Cathedral Section -->
+        <div class="mainText mt-4 mb-4">
+            <h2 class="title mt-4 mb-4">CATHEDRAL</h2>
+        </div>
+        
+        <div class="imageCarousel">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active"> <!-- Update: Removed id="carouselImage" use class for styling now -->
+                  <img src="img/Cathedral1C.png" class="d-block w-100" alt="Cathedral Exterior">
+                </div>
+                <div class="carousel-item"> <!-- Update: Removed id="carouselImage" use class for styling now -->
+                  <img src="img/Cathedral2C.png" class="d-block w-100" alt="Cathedral Exterior">
+                </div>
+                <div class="carousel-item"> <!-- Update: Removed id="carouselImage" use class for styling now -->
+                  <img src="img/Cathedral3C.png" class="d-block w-100" alt="Cathedral Exterior">
+                </div>
+                <div class="carousel-item"> <!-- Update: Removed id="carouselImage" use class for styling now -->
+                  <img src="img/Cathedral5.png" class="d-block w-100" alt="Cathedral Exterior">
+                </div>
+                <div class="carousel-item"> <!-- Update: Removed id="carouselImage" use class for styling now -->
+                  <img src="img/Cathedral14.png" class="d-block w-100" alt="Cathedral Exterior">
+                </div>  
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </div>
+        
+        <div class="mainText mt-4 mb-4">
+            <p class="about mb-5">The Cathedral serves as the main place of worship for the city. Located adjacent to the central square, it features an imposing and majestic
+                silhouette.
+            </p>
+        </div>
+        
+        <div class="MP mt-4">
+            <div class="imageGridRow">
+              <div class="imageGridColumn">
+                <!-- <img src="img/Cathedral5.png"> -->
+                <img src="img/Cathedral6.png">
+                <!-- <img src="img/Cathedral7.png"> -->
+                <img src="img/Cathedral8.png">
+                <!-- <img src="img/Cathedral9.png"> -->
+              </div>
+              <div class="imageGridColumn">
+                <!-- <img src="img/Cathedral14.png"> -->
+                <!-- <img src="img/Cathedral10.png"> -->
+                <img src="img/Cathedral11.png">
+                <!-- <img src="img/Cathedral12.png"> -->
+                <img src="img/Cathedral13.png">
+              </div>
+            </div>
+        </div>
+        
+        <div>
+            <footer class="footer mt-5"><img src="img/SMT3.png" alt="Bootstrap" width="40" height="40"><p>Minecraft Cities <br>Not affiliated with Mojang or Microsoft</p></footer>
+        </div>
+        
+    </body>
+</html>

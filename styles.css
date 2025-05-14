@@ -1,0 +1,438 @@
+/* Highlight Color */
+    ::-moz-selection { /* Code for Firefox */
+        color: rgb(255, 255, 255);
+        background: rgb(63, 84, 59);
+    }
+    
+    ::selection {
+        color: rgb(255, 255, 255);
+        background: rgb(63, 84, 59);
+    }
+
+/* Navbar Content */
+    .navbar {
+        background-color: #494949;
+        background-image: linear-gradient(to bottom right, #3b503b , #3c553c, #567756); 
+    }
+
+    
+    #navToggler {
+        border: none;
+        background-color: inherit;
+        border-radius: 18px;
+        padding: 7px 14px;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+
+    #navToggler:hover {background: #567756;}
+
+    #navToggler:active {
+        background-color: #cecece;
+        opacity: 0.2;
+        transform: translateY(2px);
+    }
+
+    .button {
+        border: none;
+        background-color: inherit;
+        border-radius: 18px;
+        padding: 7px 14px;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    /* On mouse-over */
+    .button:hover {background: #567756;}
+
+    .button:active {
+      background-color: #cecece;
+
+      transform: translateY(2px);
+    }
+
+    .buttonG1 {
+        border: none;
+        background-color: inherit;
+        border-radius: 18px 0px 0px 18px;
+        padding: 7px 1px;
+        text-align: center;
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+
+    /* On mouse-over */
+    .buttonG1:hover {background: #567756;}
+
+    .buttonG1:active {
+      background-color: #cecece;
+
+      transform: translateY(2px);
+    }
+
+    .buttonG2 {
+        border: none;
+        background-color: inherit;
+        border-radius: 0px 18px 18px 0px;
+        padding: 7px 1px;
+        text-align: center;
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+
+    /* On mouse-over */
+    .buttonG2:hover {background: #567756;}
+
+    .buttonG2:active {
+      background-color: #cecece;
+
+      transform: translateY(2px);
+    }
+
+/* Navbar Content End */
+
+
+/* Main Page Content */
+
+    /* Main Image Content */
+        .MainImage {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            opacity: 0.9;
+        }
+
+        .centered2 {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -49%);
+            opacity: 0.9;
+        }
+
+        /* Update: removed id
+        #CityFlag {       
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        replaced with its own class*/ 
+        .cityFlag {
+            width: 60%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        @media only screen and (min-width: 800px){
+            .cityFlag {
+                width: 40%;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+        }
+
+        /* Update: removed (unused)
+        .test {
+            border-radius: 50%;
+        }
+        */
+
+        .responsiveImg {
+            width: 100%;
+            height: auto;
+            
+        }
+
+        .responsiveImgLevel2 {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+
+        @media only screen and (min-width: 800px){
+            .responsiveImgLevel2 {
+                width: 60%;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 10px;
+            }
+        }
+
+        .responsiveImgLevel3Right {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            /*margin-right: auto; */
+            border-radius: 10px;
+            float: right;
+        }
+
+        @media only screen and (min-width: 1000px){
+            .responsiveImgLevel3Right {
+                width: 60%;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                /*margin-right: auto; */
+                border-radius: 10px;
+                float: right;
+            }
+        }
+        
+
+        .responsiveImgLevel3Left {
+            width: 100%;
+            height: auto;
+            display: block;
+            /*margin-left: auto;*/
+            margin-right: auto; 
+            border-radius: 10px;
+            float: left;
+        }
+
+        @media only screen and (min-width: 1000px){
+            .responsiveImgLevel3Left {
+                width: 60%;
+                height: auto;
+                display: block;
+                /*margin-left: auto;*/
+                margin-right: auto; 
+                border-radius: 10px;
+                float: left;
+            }
+        }
+    /* Main Image Content End */
+
+    /* Image Cards */
+
+        .card-img-top {
+            position: relative;
+            width: 50%;
+        }
+
+        .card-img {
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .text {
+            text-align: center;
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+
+        .cardButton {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            border: none;
+            background-color: inherit;
+            padding: 14px 28px;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-block;
+            text-align: center;
+            width: 600%;
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .card-img-top:hover .card-img{
+            opacity: 0.4;
+        }
+
+        .card-img-top:hover .middle{
+            opacity: 1;
+        }
+
+
+    /* Image Cards End */
+
+    .title {
+        color: #3b503b;
+        text-align: center;
+    }
+
+    .MP {
+        width: 97%;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+
+    .mainText {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        clear: both;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .mainText {
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .mainTextWide {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    @media only screen and (min-width: 600px) {
+        .mainTextWide {
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .clearLeft {
+        clear: left;
+    }
+
+    .clearRight {
+        clear: right;
+    }
+
+    /*
+    .mainTextWideLeft {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    @media only screen and (min-width: 600px) {
+        .mainTextWideLeft {
+            width: 66%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    */
+
+    .about {
+        text-indent: 40px;
+        opacity: 0.8;
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .about {
+            text-indent: 40px;
+            opacity: 0.8;
+            font-size: 20px;
+            line-height: 1.6;
+            text-align: center;
+        }
+    }
+
+    .footer {
+        padding: 28px 28px;
+        background-color: inherit;
+        text-align: center;
+        opacity: 0.5;
+        font-size: 11px;
+    }
+
+    .divider {
+        opacity: 0.5;
+        background-image: linear-gradient(to bottom right, #3b503b , #3c553c, #567756);
+        clear: both;
+    }
+
+
+    /* Cathedral images */
+    /* Carousel */
+    .imageCarousel {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .imageCarousel {
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    /* Update: removed
+    #carouselImage {
+        border-radius: 10px;
+    }
+    Replaced with*/ 
+    .d-block {
+        border-radius: 10px;
+    }
+
+    /* Image grid */
+    .imageGridRow {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    /* Create 2 equal columns that sits next to each other */
+    .imageGridColumn {
+        flex: 50%;
+        max-width: 50%;
+        padding: 0 4px;
+    }
+
+    .imageGridColumn img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        border-radius: 10px;        
+    }
+
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .imageGridColumn {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+
